@@ -1,0 +1,32 @@
+{
+  "name": "playwright-cucumber-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js features/**/*.feature",
+    "report": "node generate-report.js",
+    "test:report": "cucumber-js features/**/*.feature && node generate-report.js",
+    "smoke": "cucumber-js --tags @smoke",
+    "regression": "cucumber-js --tags @Regression",
+    "TC1": "cucumber-js --tags @TC1",
+    "TC2": "cucumber-js --tags @TC2",
+    "TC3": "cucumber-js --tags @TC3",
+    "runTestParallelely": "cucumber-js --parallel 3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.0.0",
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.0.1",
+    "cucumber-html-reporter": "^7.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}

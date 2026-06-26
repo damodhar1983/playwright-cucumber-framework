@@ -17,7 +17,7 @@ Before(async function (this: CustomWorld) {
   const launcher = browsers[browserName];
 
   const browser = await launcher.launch({
-    headless: false,
+    headless: true,
   });
 
   this.browser = browser;

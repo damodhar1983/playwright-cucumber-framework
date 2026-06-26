@@ -4,15 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js features/**/*.feature",
+    "test": "cucumber-js --require-module ts-node/register features/**/*.feature",
     "report": "node generate-report.js",
-    "test:report": "cucumber-js features/**/*.feature && node generate-report.js",
-    "smoke": "cucumber-js --tags @smoke",
-    "regression": "cucumber-js --tags @Regression",
-    "TC1": "cucumber-js --tags @TC1",
-    "TC2": "cucumber-js --tags @TC2",
-    "TC3": "cucumber-js --tags @TC3",
-    "runTestParallelely": "cucumber-js --parallel 3"
+    "test:report": "npm run test && npm run report",
+    "smoke": "cucumber-js --require-module ts-node/register --tags @smoke",
+    "regression": "cucumber-js --require-module ts-node/register --tags @Regression",
+    "TC1": "cucumber-js --require-module ts-node/register --tags @TC1",
+    "TC2": "cucumber-js --require-module ts-node/register --tags @TC2",
+    "TC3": "cucumber-js --require-module ts-node/register --tags @TC3",
+    "runTestParallelely": "cucumber-js --require-module ts-node/register --parallel 3"
   },
   "keywords": [],
   "author": "",

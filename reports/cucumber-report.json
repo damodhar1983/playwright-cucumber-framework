@@ -4,69 +4,82 @@
     "elements": [
       {
         "description": "",
-        "id": "contact-page-validation;submit-contact-form-successfully",
+        "id": "contact-page-validation;verify-mandatory-field-validation-messages-are-displayed-and-cleared",
         "keyword": "Scenario Outline",
-        "line": 27,
-        "name": "Submit contact form successfully",
+        "line": 13,
+        "name": "Verify mandatory field validation messages are displayed and cleared",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1254502199
+              "duration": 516835500
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 19,
+            "line": 5,
             "name": "I navigate to the Contact page",
             "match": {
               "location": "features\\step-definitions\\contact.steps.ts:5"
             },
             "result": {
               "status": "passed",
-              "duration": 2259238500
+              "duration": 1887086499
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 20,
-            "name": "I enter valid contact details \"damodhar\" \"damodhar@gmail.com\" \"Mandatory fields entered\"",
-            "match": {
-              "location": "features\\step-definitions\\contact.steps.ts:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 778920399
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 21,
+            "line": 6,
             "name": "I click the Submit button",
             "match": {
               "location": "features\\step-definitions\\contact.steps.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 144816800
+              "duration": 381598100
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 22,
-            "name": "I should see a successful submission message",
+            "line": 7,
+            "name": "I should see validation errors for mandatory fields",
             "match": {
-              "location": "features\\step-definitions\\contact.steps.ts:33"
+              "location": "features\\step-definitions\\contact.steps.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 2646941600
+              "duration": 562054600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I enter valid contact details \"damodhar\" \"damodhar@gmail.com\" \"Mandatory fields entered\"",
+            "match": {
+              "location": "features\\step-definitions\\contact.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 598285000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "all validation errors should be cleared",
+            "match": {
+              "location": "features\\step-definitions\\contact.steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40517899
             }
           },
           {
@@ -74,14 +87,14 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2293184499
+              "duration": 555110200
             }
           }
         ],
         "tags": [
           {
-            "name": "@TC2",
-            "line": 17
+            "name": "@TC1",
+            "line": 3
           }
         ],
         "type": "scenario"
@@ -98,7 +111,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1312827499
+              "duration": 576264799
             }
           },
           {
@@ -111,7 +124,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2058732400
+              "duration": 1847885800
             }
           },
           {
@@ -124,7 +137,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 816410099
+              "duration": 817983600
             }
           },
           {
@@ -137,7 +150,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 75465299
+              "duration": 49950100
             }
           },
           {
@@ -150,7 +163,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4565860000
+              "duration": 1430791099
             }
           },
           {
@@ -158,7 +171,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 606882599
+              "duration": 439450899
             }
           }
         ],
@@ -172,82 +185,69 @@
       },
       {
         "description": "",
-        "id": "contact-page-validation;verify-mandatory-field-validation-messages-are-displayed-and-cleared",
+        "id": "contact-page-validation;submit-contact-form-successfully",
         "keyword": "Scenario Outline",
-        "line": 13,
-        "name": "Verify mandatory field validation messages are displayed and cleared",
+        "line": 27,
+        "name": "Submit contact form successfully",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1150874200
+              "duration": 568850399
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 19,
             "name": "I navigate to the Contact page",
             "match": {
               "location": "features\\step-definitions\\contact.steps.ts:5"
             },
             "result": {
               "status": "passed",
-              "duration": 2128340499
+              "duration": 1869401600
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 6,
-            "name": "I click the Submit button",
-            "match": {
-              "location": "features\\step-definitions\\contact.steps.ts:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 560182000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 7,
-            "name": "I should see validation errors for mandatory fields",
-            "match": {
-              "location": "features\\step-definitions\\contact.steps.ts:17"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 611075100
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 8,
+            "line": 20,
             "name": "I enter valid contact details \"damodhar\" \"damodhar@gmail.com\" \"Mandatory fields entered\"",
             "match": {
               "location": "features\\step-definitions\\contact.steps.ts:22"
             },
             "result": {
               "status": "passed",
-              "duration": 1136755100
+              "duration": 842925000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I click the Submit button",
+            "match": {
+              "location": "features\\step-definitions\\contact.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63524199
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 9,
-            "name": "all validation errors should be cleared",
+            "line": 22,
+            "name": "I should see a successful submission message",
             "match": {
-              "location": "features\\step-definitions\\contact.steps.ts:28"
+              "location": "features\\step-definitions\\contact.steps.ts:33"
             },
             "result": {
               "status": "passed",
-              "duration": 64194299
+              "duration": 1880555099
             }
           },
           {
@@ -255,14 +255,14 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3726848000
+              "duration": 497286799
             }
           }
         ],
         "tags": [
           {
-            "name": "@TC1",
-            "line": 3
+            "name": "@TC2",
+            "line": 17
           }
         ],
         "type": "scenario"
@@ -279,7 +279,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 953853899
+              "duration": 551684000
             }
           },
           {
@@ -292,7 +292,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2361492500
+              "duration": 1846949599
             }
           },
           {
@@ -305,7 +305,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 960185499
+              "duration": 795337700
             }
           },
           {
@@ -318,7 +318,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 111889500
+              "duration": 65996500
             }
           },
           {
@@ -331,7 +331,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4253326799
+              "duration": 1897992000
             }
           },
           {
@@ -339,7 +339,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2780216599
+              "duration": 481218099
             }
           }
         ],
@@ -363,7 +363,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 923290399
+              "duration": 529596799
             }
           },
           {
@@ -376,7 +376,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2232085999
+              "duration": 1878001299
             }
           },
           {
@@ -389,7 +389,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1003310700
+              "duration": 806951499
             }
           },
           {
@@ -402,7 +402,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 54416799
+              "duration": 65884999
             }
           },
           {
@@ -415,7 +415,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6676700300
+              "duration": 1400398700
             }
           },
           {
@@ -423,7 +423,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 595151000
+              "duration": 476666499
             }
           }
         ],
@@ -447,7 +447,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 988259000
+              "duration": 521931400
             }
           },
           {
@@ -460,7 +460,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2259184000
+              "duration": 1822782799
             }
           },
           {
@@ -473,7 +473,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 902405499
+              "duration": 828144799
             }
           },
           {
@@ -486,7 +486,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 85123599
+              "duration": 58080200
             }
           },
           {
@@ -499,7 +499,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17540521099
+              "duration": 2429319900
             }
           },
           {
@@ -507,7 +507,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 731476499
+              "duration": 525842400
             }
           }
         ],
@@ -531,7 +531,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 675282400
+              "duration": 490618199
             }
           },
           {
@@ -544,7 +544,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6914321800
+              "duration": 6914616199
             }
           },
           {
@@ -557,7 +557,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1160197700
+              "duration": 1138446100
             }
           },
           {
@@ -570,7 +570,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1375993099
+              "duration": 1354021499
             }
           },
           {
@@ -583,7 +583,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1267660900
+              "duration": 1203922800
             }
           },
           {
@@ -596,7 +596,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5109234600
+              "duration": 5091277500
             }
           },
           {
@@ -609,7 +609,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 129725599
+              "duration": 140852100
             }
           },
           {
@@ -622,7 +622,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 160049600
+              "duration": 185547200
             }
           },
           {
@@ -630,7 +630,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1136993299
+              "duration": 1229363199
             }
           }
         ],

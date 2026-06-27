@@ -12,7 +12,7 @@
     "TC1": "cucumber-js --require-module ts-node/register --tags @TC1",
     "TC2": "cucumber-js --require-module ts-node/register --tags @TC2",
     "TC3": "cucumber-js --require-module ts-node/register --tags @TC3",
-    "runTestParallelely": "cucumber-js --require-module ts-node/register --parallel 3"
+    "test:parallel": "cucumber-js --require-module ts-node/register --parallel 3"
   },
   "keywords": [],
   "author": "",

@@ -1,6 +1,8 @@
 import { setWorldConstructor, World } from "@cucumber/cucumber";
 import { Browser, BrowserContext, Page } from "@playwright/test";
 import { ContactPage } from "../../pages/ContactPage";
+import { ShopPage } from "../../pages/ShopPage";
+import { CartPage } from "../../pages/CartPage";
 
 export class CustomWorld extends World {
   browser!: Browser;
@@ -8,8 +10,8 @@ export class CustomWorld extends World {
   page!: Page;
 
   contactPage!: ContactPage;
-  //shopPage!: ShopPage;
-  //cartPage!: CartPage;
+  shopPage!: ShopPage;
+  cartPage!: CartPage;
 }
 
 setWorldConstructor(CustomWorld);

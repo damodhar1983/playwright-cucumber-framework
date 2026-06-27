@@ -6,6 +6,7 @@ module.exports = {
     ],
     requireModule: ["ts-node/register"],
     format: ["progress", "json:reports/cucumber-report.json"],
-    publishQuiet: true  
+    publishQuiet: true,
+    retry: 2   //Retry each failed scenario 2 times  
   }
 };

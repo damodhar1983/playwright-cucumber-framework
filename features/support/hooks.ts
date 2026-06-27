@@ -1,7 +1,6 @@
 import { Before, After, Status } from "@cucumber/cucumber";
 import {chromium,firefox,webkit,BrowserType} from "@playwright/test";
 import { CustomWorld } from "./world";
-import fs from "fs";
 import { config } from "dotenv";
 
 config();

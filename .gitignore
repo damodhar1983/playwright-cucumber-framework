@@ -1,4 +1,10 @@
 # =====================
+# Node / Dependencies
+# =====================
+node_modules/
+
+
+# =====================
 # Playwright outputs
 # =====================
 playwright-report/
@@ -7,20 +13,20 @@ blob-report/
 playwright/.cache/
 
 # =====================
-# Test traces 
+# Cucumber Reports
+# =====================
+reports/
+cucumber-report.html
+cucumber-report.json
+
+# =====================
+# Traces & Artifacts
 # =====================
 reports/traces/
 **/*.zip
 
 # =====================
-# Reports (auto-generated)
-# =====================
-cucumber-report.html
-cucumber-report.json
-reports/
-
-# =====================
-# Screenshots (runtime artifacts)
+# Screenshots
 # =====================
 screenshots/
 
@@ -28,3 +34,11 @@ screenshots/
 # Environment variables
 # =====================
 .env
+
+# =====================
+# OS / Editor files
+# =====================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

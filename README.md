@@ -14,6 +14,7 @@ This framework strictly follows Page Object Model (POM) design principles and co
 - **Rich Reporting**: Built-in HTML reporting with embedded screenshots and execution traces.
 - **Tag-Based Execution**: Target specific test suites easily using Cucumber tags.
 - **CI/CD Ready**: Pre-configured GitHub Actions pipeline that triggers on pushes and pull requests.
+- **Automatic Retry for Failed Scenarios**: Built‑in retry mechanism using Cucumber’s --retry flag to re‑run flaky scenarios automatically, improving test stability and reducing false failures.
 
 ---
 

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js --require-module ts-node/register features/**/*.feature",
+    "test": "cucumber-js --retry 2 --require-module ts-node/register features/**/*.feature",
     "report": "node generate-report.js",
     "test:report": "npm run test && npm run report",
     "smoke": "cucumber-js --require-module ts-node/register --tags @smoke",

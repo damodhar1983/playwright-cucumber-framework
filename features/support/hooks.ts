@@ -36,6 +36,16 @@ Before(async function (this: CustomWorld) {
 After(async function (this: CustomWorld, scenario) {
   const fileName = scenario.pickle.name.replace(/[^a-z0-9]/gi, "_");
 
+   //  THIS BLOCK FOR THE FAILURE SCREENSHOT
+  if (scenario.result?.status === Status.FAILED && this.page) {
+    const screenshot = await this.page.screenshot({
+      path: `screenshots/${fileName}_failure.png`,
+      type: "png",
+    });
+    this.attach(screenshot, "image/png");
+  }
+  // END OF BLOCK
+
   await this.context?.tracing.stop({
     path: `reports/traces/${fileName}.zip`,
   });

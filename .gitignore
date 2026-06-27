@@ -1,0 +1,30 @@
+# =====================
+# Playwright outputs
+# =====================
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/
+
+# =====================
+# Test traces 
+# =====================
+reports/traces/
+**/*.zip
+
+# =====================
+# Reports (auto-generated)
+# =====================
+cucumber-report.html
+cucumber-report.json
+reports/
+
+# =====================
+# Screenshots (runtime artifacts)
+# =====================
+screenshots/
+
+# =====================
+# Environment variables
+# =====================
+.env

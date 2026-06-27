@@ -66,7 +66,7 @@ Traces & Screenshots:Stored under:
   
   - screenshots/
 
-
+---
 
 ## 🧱 Project Architecture
 
@@ -86,7 +86,7 @@ Traces & Screenshots:Stored under:
 | package.json | Dependencies and scripts |
 
 
-
+---
 
 ## 🔄 Continuous Integration (GitHub Actions)
 This project includes a CI workflow that runs tests on:

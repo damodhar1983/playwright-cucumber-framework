@@ -28,7 +28,7 @@ Ensure the following are installed:
 ---
 ## 🔧 Installation and How to Run Tests Locally
 
-git clone https://github.com/damodhar1983/playwright-cucumber-framework.git
+1. git clone https://github.com/damodhar1983/playwright-cucumber-framework.git
 cd playwright-cucumber-framework
 
 2. Install dependencies
@@ -58,7 +58,6 @@ reports/traces/
 screenshots/
 
 
-
 ## 🧱 Project Architecture
 ```
 features/            - Gherkin feature files
@@ -84,6 +83,9 @@ cucumber.js          - Cucumber configuration
 tsconfig.json        - TypeScript configuration
 
 package.json         - Project dependencies and scripts
+
+
+
 
 
 🔄 **Continuous Integration (GitHub Actions)**

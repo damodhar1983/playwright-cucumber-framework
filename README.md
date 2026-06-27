@@ -105,6 +105,7 @@ Playwright trace files (.zip)
 
 **Command to view the trace**
 npx playwright show-trace path/to/trace.zip
+
 example: npx playwright show-trace .\traces\Submit_contact_form_successfully.zip
 
 

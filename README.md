@@ -58,37 +58,28 @@ reports/traces/
 screenshots/
 
 
+
 ## 🧱 Project Architecture
-```
-features/            - Gherkin feature files
 
-step-definitions/    - Step implementations
-
-pages/               - Page Object Model classes
-
-support/             - Hooks and World setup
-
-utils/               - Helper utilities
-
-reports/             - Test reports (HTML, JSON)
-
-traces/              - Playwright trace files
-
-screenshots/         - Failure screenshots
-
-.github/workflows/   - CI pipeline (GitHub Actions)
-
-cucumber.js          - Cucumber configuration
-
-tsconfig.json        - TypeScript configuration
-
-package.json         - Project dependencies and scripts
+| Folder/File | Description |
+|-------------|-------------|
+| features/ | Gherkin feature files |
+| step-definitions/ | Step implementations |
+| pages/ | Page Object Model classes |
+| support/ | Hooks and World setup |
+| utils/ | Helper utilities |
+| reports/ | Test reports (HTML, JSON) |
+| traces/ | Playwright trace files |
+| screenshots/ | Failure screenshots |
+| .github/workflows/ | CI pipeline (GitHub Actions) |
+| cucumber.js | Cucumber configuration |
+| tsconfig.json | TypeScript configuration |
+| package.json | Dependencies and scripts |
 
 
 
 
-
-🔄 **Continuous Integration (GitHub Actions)**
+## 🔄 Continuous Integration (GitHub Actions)
 This project includes a CI workflow that runs tests on:
 •	Every pull request
 •	Every push to main

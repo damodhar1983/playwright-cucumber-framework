@@ -38,24 +38,33 @@ npm install
 npx playwright install --with-deps
 
 4. Execute the tests
+
+   
 ▶️ Running Tests
+
 Run all tests one by one:
+
 npm run test:report
 
 Run tests with tags:
+
 npx cucumber-js --tags "@TC1"
 
 Run Tests in Parallel:
+
 npm run test:parallel
 
 📊 5. Generate the Reports:
+
 Cucumber HTML Report: After a run the results will be stored in :
+
 reports/cucumber-report.html
 
 Traces & Screenshots:Stored under:
 
-reports/traces/
-screenshots/
+  - reports/traces/
+  
+  - screenshots/
 
 
 
@@ -81,8 +90,9 @@ screenshots/
 
 ## 🔄 Continuous Integration (GitHub Actions)
 This project includes a CI workflow that runs tests on:
-•	Every pull request
-•	Every push to main
+
+  -	Every pull request	
+  -	Every push to main
 
 
 📍 How to access HTML report + traces from Github
@@ -92,10 +102,10 @@ This project includes a CI workflow that runs tests on:
 3.	Open the workflow run (the one that succeeded)
 4.	Scroll to the bottom of the page
 5.	Look for a section called Artifacts
-6.	You will see something like:
-Code
-reports
+6.	You will see something like: Code reports
+   
 Click reports → it downloads a ZIP file.
+
 Inside that ZIP, you will find:
 ✔ cucumber-report.html
 

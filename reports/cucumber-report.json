@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 563792899
+              "duration": 2171078700
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 5,
             "name": "I navigate to the Contact page",
             "match": {
-              "location": "features\\step-definitions\\contact.steps.ts:5"
+              "location": "features\\step-definitions\\contact.steps.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 1885167500
+              "duration": 59976999
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 404583999
+              "duration": 256880299
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 570383100
+              "duration": 557763700
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 600889499
+              "duration": 584482399
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 38038599
+              "duration": 30389000
             }
           },
           {
@@ -87,7 +87,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 635529700
+              "duration": 454252199
             }
           }
         ],
@@ -111,7 +111,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 501427099
+              "duration": 2032511400
             }
           },
           {
@@ -120,11 +120,11 @@
             "line": 19,
             "name": "I navigate to the Contact page",
             "match": {
-              "location": "features\\step-definitions\\contact.steps.ts:5"
+              "location": "features\\step-definitions\\contact.steps.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 1685298700
+              "duration": 101929500
             }
           },
           {
@@ -137,7 +137,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 820119500
+              "duration": 789189200
             }
           },
           {
@@ -150,7 +150,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 63567100
+              "duration": 57341399
             }
           },
           {
@@ -163,7 +163,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6485810600
+              "duration": 1878933300
             }
           },
           {
@@ -171,7 +171,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 576398799
+              "duration": 489744500
             }
           }
         ],
@@ -195,7 +195,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 503658200
+              "duration": 2154994999
             }
           },
           {
@@ -204,11 +204,11 @@
             "line": 19,
             "name": "I navigate to the Contact page",
             "match": {
-              "location": "features\\step-definitions\\contact.steps.ts:5"
+              "location": "features\\step-definitions\\contact.steps.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 1809079199
+              "duration": 66222900
             }
           },
           {
@@ -221,7 +221,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 804534199
+              "duration": 805689700
             }
           },
           {
@@ -234,7 +234,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 54658199
+              "duration": 61249899
             }
           },
           {
@@ -247,7 +247,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2394438299
+              "duration": 4939943299
             }
           },
           {
@@ -255,7 +255,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 546386899
+              "duration": 1020044099
             }
           }
         ],
@@ -279,7 +279,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 515597499
+              "duration": 2179929899
             }
           },
           {
@@ -288,11 +288,11 @@
             "line": 19,
             "name": "I navigate to the Contact page",
             "match": {
-              "location": "features\\step-definitions\\contact.steps.ts:5"
+              "location": "features\\step-definitions\\contact.steps.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 1796005700
+              "duration": 87021199
             }
           },
           {
@@ -305,7 +305,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 804014599
+              "duration": 791151400
             }
           },
           {
@@ -318,7 +318,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 75320299
+              "duration": 49512899
             }
           },
           {
@@ -331,7 +331,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10061814799
+              "duration": 5431962700
             }
           },
           {
@@ -339,7 +339,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 584212299
+              "duration": 1002198599
             }
           }
         ],
@@ -363,7 +363,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 507346400
+              "duration": 2095959900
             }
           },
           {
@@ -372,11 +372,11 @@
             "line": 19,
             "name": "I navigate to the Contact page",
             "match": {
-              "location": "features\\step-definitions\\contact.steps.ts:5"
+              "location": "features\\step-definitions\\contact.steps.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 1799136500
+              "duration": 64409100
             }
           },
           {
@@ -389,7 +389,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 815837800
+              "duration": 775308100
             }
           },
           {
@@ -402,7 +402,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 62673000
+              "duration": 45455800
             }
           },
           {
@@ -415,7 +415,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2425586499
+              "duration": 1358626199
             }
           },
           {
@@ -423,7 +423,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 487521300
+              "duration": 521973999
             }
           }
         ],
@@ -447,7 +447,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 550925699
+              "duration": 2148976599
             }
           },
           {
@@ -456,11 +456,11 @@
             "line": 19,
             "name": "I navigate to the Contact page",
             "match": {
-              "location": "features\\step-definitions\\contact.steps.ts:5"
+              "location": "features\\step-definitions\\contact.steps.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 1810642899
+              "duration": 61776499
             }
           },
           {
@@ -473,7 +473,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 810413399
+              "duration": 786792900
             }
           },
           {
@@ -486,7 +486,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 45404099
+              "duration": 53703400
             }
           },
           {
@@ -499,7 +499,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1368456100
+              "duration": 2896743399
             }
           },
           {
@@ -507,7 +507,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 468611600
+              "duration": 977943500
             }
           }
         ],
@@ -531,7 +531,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 553142099
+              "duration": 2096020499
             }
           },
           {
@@ -544,7 +544,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6638178800
+              "duration": 5087372300
             }
           },
           {
@@ -557,7 +557,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1162407599
+              "duration": 1125018199
             }
           },
           {
@@ -570,7 +570,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1288611499
+              "duration": 1266917599
             }
           },
           {
@@ -583,7 +583,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1188344300
+              "duration": 1182726699
             }
           },
           {
@@ -596,7 +596,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5108768900
+              "duration": 5065779300
             }
           },
           {
@@ -609,7 +609,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 129892200
+              "duration": 114836200
             }
           },
           {
@@ -622,7 +622,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 115602500
+              "duration": 101564899
             }
           },
           {
@@ -630,7 +630,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 933510499
+              "duration": 1281547200
             }
           }
         ],

@@ -9,9 +9,7 @@ export class ShopPage {
     }
 
     // Navigate to Shop page
-    async navigateToShop() {
-        await this.page.goto("http://jupiter.cloud.planittesting.com");
-        // await this.page.getByRole("link", { name: "Shop" }).click();
+    async navigateToShop() {        
         await this.page.locator('#nav-shop a').click();
         await this.page.waitForTimeout(5000);
 

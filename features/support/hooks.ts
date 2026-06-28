@@ -9,7 +9,7 @@ type BrowserName = "chromium" | "firefox" | "webkit";
 
 const browsers: Record<BrowserName, BrowserType> = { chromium, firefox, webkit };
 
-Before(async function (this: CustomWorld) {
+Before({ timeout: 100 * 1000 },async function (this: CustomWorld) {
   const browserName: BrowserName =
     (process.env.BROWSER as BrowserName) || "chromium";
 
@@ -30,6 +30,12 @@ Before(async function (this: CustomWorld) {
   });
 
   this.page = await this.context.newPage();
+  // Navigate to BASEURL before every scenario
+  const baseUrl = process.env.BASEURL;
+  if (!baseUrl) {
+    throw new Error("BASEURL environment variable is not defined");
+  }
+  await this.page.goto(baseUrl);
 });
 
 After(async function (this: CustomWorld, scenario) {

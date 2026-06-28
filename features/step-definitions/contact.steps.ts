@@ -2,9 +2,9 @@ import { Given, When, Then } from "@cucumber/cucumber";
 import { ContactPage } from "../../pages/ContactPage";
 import { CustomWorld } from "../support/world";
 
+
 Given('I navigate to the Contact page', { timeout: 100 * 1000 },
-    async function (this: CustomWorld) {
-        await this.page.goto('http://jupiter.cloud.planittesting.com');
+    async function (this: CustomWorld) { 
         this.contactPage = new ContactPage(this.page);
         await this.contactPage.navigateToContactPage();
     });

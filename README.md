@@ -49,7 +49,7 @@ npx playwright install --with-deps
 
 ### 4. Execute the Tests
 
-* **Run all tests sequentially:**
+* **Run all tests :**
   ```bash
   npm run test:report
   ```
@@ -57,9 +57,9 @@ npx playwright install --with-deps
   ```bash
   npx cucumber-js --tags "@TC1"
   ```
-* **Run tests in parallel:**
+* **Re-Run failed tests:**
   ```bash
-  npm run test:parallel
+  npm run retry:failed
   ```
 
 ### 5. View Test Reports

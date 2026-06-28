@@ -4,18 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js --retry 2 --require-module ts-node/register features/**/*.feature",
+    "test": "cucumber-js ",
     "report": "node generate-report.js",
     "test:report": "npm run test && npm run report",
-    "smoke": "cucumber-js --require-module ts-node/register --tags @smoke",
-    "regression": "cucumber-js --require-module ts-node/register --tags @Regression",
-    "TC1": "cucumber-js --require-module ts-node/register --tags @TC1",
-    "TC2": "cucumber-js --require-module ts-node/register --tags @TC2",
-    "TC3": "cucumber-js --require-module ts-node/register --tags @TC3",
-    "test:parallel": "cucumber-js --require-module ts-node/register --parallel 3"
+    "smoke": "cucumber-js --tags @smoke",
+    "regression": "cucumber-js --tags @Regression",
+    "TC1": "cucumber-js --tags @TC1",
+    "TC2": "cucumber-js --tags @TC2",
+    "TC3": "cucumber-js --tags @TC3",
+    "test:parallel": "cucumber-js --parallel 3",
+    "retry:failed": "cucumber-js -p rerun @rerun.txt"
   },
   "keywords": [],
-  "author": "",
+  "author": "Damodhar",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {

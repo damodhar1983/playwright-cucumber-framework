@@ -34,13 +34,9 @@ Feature: Contact Page Validation
   Scenario: Verify cart calculations
 
     Given I navigate to the Shop page
-
     When I add 2 "Stuffed Frog" to the cart
     And I add 5 "Fluffy Bunny" to the cart
     And I add 3 "Valentine Bear" to the cart
-
     And I navigate to the Cart page
-
     Then the subtotal should equal unit price multiplied by quantity for each product
-
     And the cart total should equal the sum of all subtotals

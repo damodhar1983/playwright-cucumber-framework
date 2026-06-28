@@ -4,7 +4,7 @@ import { CustomWorld } from "../support/world";
 
 
 Given('I navigate to the Contact page', { timeout: 100 * 1000 },
-    async function (this: CustomWorld) { 
+    async function (this: CustomWorld) {
         this.contactPage = new ContactPage(this.page);
         await this.contactPage.navigateToContactPage();
     });

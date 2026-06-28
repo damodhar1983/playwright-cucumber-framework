@@ -39,4 +39,5 @@ Feature: Contact Page Validation
     And I add 3 "Valentine Bear" to the cart
     And I navigate to the Cart page
     Then the subtotal should equal unit price multiplied by quantity for each product
+    Then the unit price for each product should be correct
     And the cart total should equal the sum of all subtotals

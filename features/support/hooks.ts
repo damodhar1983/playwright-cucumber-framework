@@ -15,8 +15,11 @@ Before({ timeout: 100 * 1000 },async function (this: CustomWorld) {
 
   const launcher = browsers[browserName];
 
+  // Detect CI environment
+  const isCI = process.env.CI === "true";
+
   const browser = await launcher.launch({
-    headless: true,
+    headless: isCI,   // headed locally, headless in GitHub Actions
   });
 
   this.browser = browser;

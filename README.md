@@ -68,7 +68,8 @@ npx playwright install --with-deps
   - `reports/traces/`
   - `screenshots/`
 ---
-Environment Variables & Secrets (Required)
+🔐 Environment Variables & Secrets (Required)
+
 This framework requires two environment variables for both local execution and GitHub Actions CI:
 
 Code

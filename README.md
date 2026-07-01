@@ -103,9 +103,10 @@ Click New repository secret
 
 Add:
 
-Secret Name	Value
-BROWSER	chromium
-BASEURL	http://jupiter.cloud.planittesting.com
+Secret Name	: Value
+BROWSER	    : chromium
+
+BASEURL	    : http://jupiter.cloud.planittesting.com
 
 
 workflow already maps these secrets:

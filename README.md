@@ -68,24 +68,29 @@ npx playwright install --with-deps
   - `reports/traces/`
   - `screenshots/`
 ---
-##🔐 Environment Variables & Secrets (Required)
+### 🔐 Environment Variables & Secrets (Required)
 
-#This framework requires two environment variables for both local execution and GitHub Actions CI:
+This framework requires two environment variables for both local execution and GitHub Actions CI:
 
 Code
 BROWSER=chromium
+
 BASEURL=http://jupiter.cloud.planittesting.com
+
 These control browser selection and the base URL for test execution.
 
-##🖥️ Local Setup (.env file)
+## 🖥️ Local Setup (.env file)
+
 Create a .env file in the project root:
 
 Code
 BROWSER=chromium
+
 BASEURL=http://jupiter.cloud.planittesting.com
+
 The framework automatically loads this file using dotenv.
 
-☁️ GitHub Actions Setup (Repository Secrets)
+## ☁️ GitHub Actions Setup (Repository Secrets)
 GitHub does not copy secrets when someone clones or forks the repository.
 Each user must add their own secrets manually.
 
@@ -108,6 +113,7 @@ workflow already maps these secrets:
 yaml
 env:
   BROWSER: ${{ secrets.BROWSER }}
+  
   BASEURL: ${{ secrets.BASEURL }}
   
 ---

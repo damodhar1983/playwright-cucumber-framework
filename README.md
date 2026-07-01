@@ -67,7 +67,47 @@ npx playwright install --with-deps
 - **Traces & Screenshots**: Debug artifacts are automatically saved inside:
   - `reports/traces/`
   - `screenshots/`
+---
+Environment Variables & Secrets (Required)
+This framework requires two environment variables for both local execution and GitHub Actions CI:
 
+Code
+BROWSER=chromium
+BASEURL=http://jupiter.cloud.planittesting.com
+These control browser selection and the base URL for test execution.
+
+🖥️ Local Setup (.env file)
+Create a .env file in the project root:
+
+Code
+BROWSER=chromium
+BASEURL=http://jupiter.cloud.planittesting.com
+The framework automatically loads this file using dotenv.
+
+☁️ GitHub Actions Setup (Repository Secrets)
+GitHub does not copy secrets when someone clones or forks the repository.
+Each user must add their own secrets manually.
+
+Steps:
+Go to Settings
+
+Select Secrets and variables → Actions
+
+Click New repository secret
+
+Add:
+
+Secret Name	Value
+BROWSER	chromium
+BASEURL	http://jupiter.cloud.planittesting.com
+
+
+workflow already maps these secrets:
+
+yaml
+env:
+  BROWSER: ${{ secrets.BROWSER }}
+  BASEURL: ${{ secrets.BASEURL }}
 ---
 
 ## 🧱 Project Architecture

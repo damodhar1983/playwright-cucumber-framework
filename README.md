@@ -68,16 +68,16 @@ npx playwright install --with-deps
   - `reports/traces/`
   - `screenshots/`
 ---
-🔐 Environment Variables & Secrets (Required)
+##🔐 Environment Variables & Secrets (Required)
 
-This framework requires two environment variables for both local execution and GitHub Actions CI:
+#This framework requires two environment variables for both local execution and GitHub Actions CI:
 
 Code
 BROWSER=chromium
 BASEURL=http://jupiter.cloud.planittesting.com
 These control browser selection and the base URL for test execution.
 
-🖥️ Local Setup (.env file)
+##🖥️ Local Setup (.env file)
 Create a .env file in the project root:
 
 Code
@@ -109,6 +109,7 @@ yaml
 env:
   BROWSER: ${{ secrets.BROWSER }}
   BASEURL: ${{ secrets.BASEURL }}
+  
 ---
 
 ## 🧱 Project Architecture
